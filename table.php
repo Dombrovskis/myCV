@@ -1,28 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>myCV</title>
-</head>
+require_once 'components/header.php';
 
-<body>
-    <div class="content">
-        <header>
-            <div class="header_background_image"></div>
-            <!-- nav bar  -->
-            <nav class="main_nav">
-                <ul>
-                    <li><a class="active" href="/index.html">Home</a></li>
-                    <li><a href="/news.html">News</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="table.html">Table Page</a></li>
-                </ul>
-            </nav>
-        </header>
+?>
         <main>
             <div class="container">
                 <div class="header">Calculator</div>

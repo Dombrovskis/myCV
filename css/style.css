@@ -1,6 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=New+Tegomin&display=swap");
+
+
+/* js task */
+
+#demo ul{
+  display: flex;
+  flex-direction: column;
+}
+#demo li{
+  list-style:square;
+  margin: 20px;
+  
+}
+
+
+
 body {
   background-color: aliceblue;
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
 }
+/* header{
+  width: 100%;
+} */
 main {
   margin-top: 25px;
 }
@@ -15,8 +38,9 @@ main {
   border-radius: 0 20px 20px 0;
 }
 .supra_text {
-  width: 600px;
+  max-width: 600px;
   margin: auto;
+  width: 100%;
 }
 .supra_text p {
   font-size: 20px;
@@ -24,6 +48,7 @@ main {
     "Lucida Sans", Arial, sans-serif;
   text-align: justify;
   color: #7b5a3c;
+  font-family: "Lobster", sans-serif;
 }
 /* .mid_supra {
 border-bottom: 2px solid gray;
@@ -31,6 +56,7 @@ border-top: 2px solid gray;
 } */
 .content {
   max-width: 900px;
+  width: 100%;
   margin: auto;
 }
 
@@ -63,8 +89,10 @@ li a:hover {
 }
 
 .header_background_image {
-  background: url(/img/opportunity-3185099_1280-366x205.jpg) 0 0 repeat;
-  height: 245px;
+  
+  background: url("https://press.mecalife.com/wp-content/uploads/2019/03/que-pourrait-devenir-la-gestion-rh-avec-levolution-de-volume-des-travailleurs-independants_5c950fc7c7d6c.jpeg") 0 0 repeat;
+  height: 200px;
+
 }
 
 /* calculator */
@@ -128,3 +156,5 @@ td {
 .white-text {
   color: #fff;
 }
+
+

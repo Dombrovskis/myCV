@@ -1,0 +1,27 @@
+@media screen and (max-width: 915px) {
+
+  body .supra_text p {
+      font-size: 22px;
+      margin: 30px;
+    }
+    iframe {
+      width: 100%;
+      /* height: 315px; */
+    }
+
+  }
+
+  @media screen and (max-width: 645px) {
+
+
+  
+  .left_supra {
+    display: none;
+  }
+  .right_supra {
+    display: none;
+  }
+  .mid_supra{
+    border-radius: 20px;
+  }
+}
